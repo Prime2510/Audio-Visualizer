@@ -1,6 +1,3 @@
-# Audio-Visualizer
-A minimal yet visually striking music visualizer built with p5.js that transforms audio into a mesmerizing circular spectrum display with neon aesthetics and interactive volume control.
-
 # 🌈 Neon Music Visualizer
 
 A minimal, neon-aesthetic music visualizer built with p5.js that creates stunning circular frequency visualizations with real-time audio analysis and interactive volume control.
@@ -28,9 +25,8 @@ A minimal, neon-aesthetic music visualizer built with p5.js that creates stunnin
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Modern web browser with Web Audio API support
-- Local web server (for file loading) or live server extension
+## Live at 
+ https://prime2510.github.io/Audio-Visualizer/
 
 ### Installation
 1. Clone or download the project files
@@ -72,11 +68,7 @@ A minimal, neon-aesthetic music visualizer built with p5.js that creates stunnin
 - **Performance**: 60 FPS rendering with optimized drawing functions
 - **Responsive**: Automatic scaling and repositioning on window resize
 
-### Browser Compatibility
-- ✅ Chrome 66+
-- ✅ Firefox 60+
-- ✅ Safari 11.1+
-- ✅ Edge 79+
+
 
 ## 📁 File Structure
 
