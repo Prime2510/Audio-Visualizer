@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Music Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <label for="audioFile" class="btn">Load Audio</label>
+            <input type="file" id="audioFile" accept="audio/*" hidden>
+            <button id="playBtn" class="btn" disabled>Play</button>
+            <button id="micBtn" class="btn">Mic</button>
+        </div>
+        
+        <div class="info">
+            <p>Click to start audio context</p>
+        </div>
+        
+        <div class="freq-labels">
+            <div class="freq-label" id="bassLabel">BASS</div>
+            <div class="freq-label" id="midLabel">MID</div>
+            <div class="freq-label" id="highLabel">HIGH</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
